@@ -1,0 +1,6 @@
+<div class="row szd-lang pull-right">
+    <a title="{{ trans('simulator.header.flags.flag_es_title') }}" href="?lang=es"><img title="{{ trans('simulator.header.flags.flag_es_title') }}" src="/images/lang/es.png" alt="{{ trans('simulator.header.flags.flag_es_title') }}" width="22" height="15" /></a>
+    <a title="{{ trans('simulator.header.flags.flag_en_title') }}" href="?lang=en"><img title="{{ trans('simulator.header.flags.flag_en_title') }}" src="/images/lang/en.png" alt="{{ trans('simulator.header.flags.flag_en_title') }}" width="22" height="15" /></a>
+    <a title="{{ trans('simulator.header.flags.flag_fr_title') }}" href="?lang=fr"><img title="{{ trans('simulator.header.flags.flag_fr_title') }}" src="/images/lang/fr.png" alt="{{ trans('simulator.header.flags.flag_fr_title') }}" width="22" height="15" /></a>
+    <a title="{{ trans('simulator.header.flags.flag_it_title') }}" href="?lang=it"><img title="{{ trans('simulator.header.flags.flag_it_title') }}" src="/images/lang/it.png" alt="{{ trans('simulator.header.flags.flag_it_title') }}" width="22" height="15" /></a>
+</div>

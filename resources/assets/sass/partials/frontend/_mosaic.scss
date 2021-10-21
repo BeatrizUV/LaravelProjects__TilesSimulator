@@ -1,0 +1,58 @@
+.szd-mosaic {
+    display: block;
+    height: 60%;
+}
+
+.szd-colours {
+    display: block;
+    height: 40%;
+}
+
+#mosaic-left, #mosaic-right {
+    width: 50%;
+    border: 1px solid $gris-texto;
+    background-color: $gris-forms;
+    height: 100%;
+}
+
+.szd-preview {
+    width: 105%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.szd-budget-btn {
+    background-color: $verde;
+    color: #FFF;
+}
+
+.szd-budget-btn, .szd-reset-btn {
+    height: 25px;
+    line-height: 11px;
+}
+
+.szd-reset-btn {
+    background-color: $gris-interior;
+}
+
+.szd-buttons button {
+    margin-top: 7px;
+}
+
+.szd-buttons button:hover {
+    background-color: #000;
+    color: #FFF;
+}
+
+.szd-buttons {
+    padding-right: 9px;
+}
+
+.szd-flip-horizontal {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}

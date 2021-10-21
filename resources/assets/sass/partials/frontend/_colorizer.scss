@@ -1,0 +1,32 @@
+.szd-editor h4 {
+    margin-left: 7.5%;
+}
+
+.szd-colorizer {
+    width: 85%;
+    height: auto;
+    border: 1px solid $gris-texto;
+    background-color: $gris-forms;
+    margin: 2.5% 2.5% 2.5% 7.5%;
+}
+
+#colorizer {
+    cursor: not-allowed;
+    overflow: hidden;
+}
+
+#colorizer path.disabled {
+    cursor: not-allowed !important;
+}
+
+#colorizer svg {
+    border: 1px solid #FFF;
+}
+
+.preview {
+    overflow: hidden;
+}
+
+.szd-cursor-paint-bucket {
+    cursor: url('/images/cursor/paint-bucket-icon.png') 2 16, pointer !important;
+}

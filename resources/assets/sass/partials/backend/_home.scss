@@ -1,0 +1,47 @@
+.home > .szd-margin-left {
+    margin-left: 145px;
+}
+
+.home .panel .page-header a span.glyphicon {
+    font-size: 50px;
+    display: block;
+    clear: both;
+    margin: auto;
+    margin-top: -30px;
+}
+
+.home .panel .page-header {
+    border: 0;
+}
+
+.home .panel .page-header a {
+    width: 100%;
+    text-align: center;
+    color: $verde;
+    transition: all 0.3s;
+}
+
+.home .panel .page-header a h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.home .panel .page-header a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.home .panel {
+    transition: all 0.3s;
+}
+
+.home .panel:hover {
+    box-shadow: #000;
+    background-color: $gris-interior;
+}
+
+.home .panel .page-header a h2 small {
+    color: $gris-texto;
+    font-size: 13px;
+}
+

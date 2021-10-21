@@ -1,0 +1,59 @@
+.szd-send-btn {
+    background-color: $verde;
+    color: #FFF;
+}
+
+.szd-cancel-btn {
+    background-color: $gris-interior;
+}
+
+.szd-cancel-btn:hover, .szd-send-btn:hover,
+.szd-send-btn:focus, .szd-send-btn:active {
+    background-color: #000;
+    color: #FFF;
+}
+
+#budget-form label, th {
+    text-align: left !important;
+    color: $verde;
+}
+
+#plaque-preview {
+    width: 239px;
+    height: 239px;
+    border: 1px solid $gris-texto;
+    clear: both;
+    margin: auto;
+}
+
+#plaque-preview svg {
+    border: 1px solid #FFF;
+}
+
+.szd-budget-colours {
+    border: 1px solid #000;
+}
+
+#plaque-pieces {
+    height: 190px;
+}
+
+tr.disabled {
+    background-color: $gris-fondo;
+    font-style: italic;
+    color: $gris-texto;
+}
+
+#budget-form input, #budget-form textarea {
+    border: 1px solid $verde;
+}
+
+#budget-form a, #budget-form a:hover {
+    color: $verde;
+}
+
+.modal-content h2 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+}

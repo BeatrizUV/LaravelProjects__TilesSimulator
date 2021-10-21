@@ -1,0 +1,195 @@
+#selected-colour {
+    display: block;
+    width: 82px;
+    height: 82px;
+    border: 1px solid $gris-texto;
+    background-size: 200% !important;
+    -webkit-background-size: 200% !important;
+    -o-background-size: 200% !important;
+    -moz-background-size: 200% !important;
+    background-color: $gris-forms;
+}
+
+.szd-colours {
+    padding-left: 12px;
+    width: 103%;
+}
+
+.szd-colours h4 {
+    padding-left: 0;
+    margin-left: -15px;
+}
+
+.szd-colour {
+    display: block;
+    width: 39px;
+    height: 39px;
+    margin: 0 0 4px 4px;
+    border: 1px solid $gris-texto;
+    float: left;
+    background-size: 200% !important;
+    -webkit-background-size: 200% !important;
+    -o-background-size: 200% !important;
+    -moz-background-size: 200% !important;
+    cursor: pointer;
+}
+
+.szd-colour_0, .szd-colour_9 {
+    margin-left: 86px;
+}
+
+.szd-colour_18, .szd-colour_29 {
+    margin: 0;
+}
+
+#colours-palette {
+    margin-top: -82px;
+}
+
+.ZC1 {
+    background: url('/_data/colores/ZC1.jpg') top left no-repeat;
+}
+
+.ZC2 {
+    background: url('/_data/colores/ZC2.jpg') top left no-repeat;
+}
+
+.ZC3 {
+    background: url('/_data/colores/ZC3.jpg') top left no-repeat;
+}
+
+.ZC4 {
+    background: url('/_data/colores/ZC4.jpg') top left no-repeat;
+}
+
+.ZC5 {
+    background: url('/_data/colores/ZC5.jpg') top left no-repeat;
+}
+
+.ZC6 {
+    background: url('/_data/colores/ZC6.jpg') top left no-repeat;
+}
+
+.ZC7 {
+    background: url('/_data/colores/ZC7.jpg') top left no-repeat;
+}
+
+.ZC8 {
+    background: url('/_data/colores/ZC8.jpg') top left no-repeat;
+}
+
+.ZC9 {
+    background: url('/_data/colores/ZC9.jpg') top left no-repeat;
+}
+
+.ZC10 {
+    background: url('/_data/colores/ZC10.jpg') top left no-repeat;
+}
+
+.ZC11 {
+    background: url('/_data/colores/ZC11.jpg') top left no-repeat;
+}
+
+.ZC12 {
+    background: url('/_data/colores/ZC12.jpg') top left no-repeat;
+}
+
+.ZC13 {
+    background: url('/_data/colores/ZC13.jpg') top left no-repeat;
+}
+
+.ZC14 {
+    background: url('/_data/colores/ZC14.jpg') top left no-repeat;
+}
+
+.ZC15 {
+    background: url('/_data/colores/ZC15.jpg') top left no-repeat;
+}
+
+.ZC16 {
+    background: url('/_data/colores/ZC16.jpg') top left no-repeat;
+}
+
+.ZC17 {
+    background: url('/_data/colores/ZC17.jpg') top left no-repeat;
+}
+
+.ZC18 {
+    background: url('/_data/colores/ZC18.jpg') top left no-repeat;
+}
+
+.ZC19 {
+    background: url('/_data/colores/ZC19.jpg') top left no-repeat;
+}
+
+.ZC20 {
+    background: url('/_data/colores/ZC20.jpg') top left no-repeat;
+}
+
+.ZC21 {
+    background: url('/_data/colores/ZC21.jpg') top left no-repeat;
+}
+
+.ZC22 {
+    background: url('/_data/colores/ZC22.jpg') top left no-repeat;
+}
+
+.ZC23 {
+    background: url('/_data/colores/ZC23.jpg') top left no-repeat;
+}
+
+.ZC24 {
+    background: url('/_data/colores/ZC24.jpg') top left no-repeat;
+}
+
+.ZC25 {
+    background: url('/_data/colores/ZC25.jpg') top left no-repeat;
+}
+
+.ZC26 {
+    background: url('/_data/colores/ZC26.jpg') top left no-repeat;
+}
+
+.ZC27 {
+    background: url('/_data/colores/ZC27.jpg') top left no-repeat;
+}
+
+.ZC28 {
+    background: url('/_data/colores/ZC28.jpg') top left no-repeat;
+}
+
+.ZC29 {
+    background: url('/_data/colores/ZC29.jpg') top left no-repeat;
+}
+
+.ZC30 {
+    background: url('/_data/colores/ZC30.jpg') top left no-repeat;
+}
+
+.ZC31 {
+    background: url('/_data/colores/ZC31.jpg') top left no-repeat;
+}
+
+.ZC32 {
+    background: url('/_data/colores/ZC32.jpg') top left no-repeat;
+}
+
+.ZC33 {
+    background: url('/_data/colores/ZC33.jpg') top left no-repeat;
+}
+
+.ZC34 {
+    background: url('/_data/colores/ZC34.jpg') top left no-repeat;
+}
+
+.ZC35 {
+    background: url('/_data/colores/ZC35.jpg') top left no-repeat;
+}
+
+.ZC36 {
+    background: url('/_data/colores/ZC36.jpg') top left no-repeat;
+}
+
+#colours-palette div:hover {
+    cursor:  url('/images/cursor/eyedropper-icon.png') 0 20, pointer;
+}

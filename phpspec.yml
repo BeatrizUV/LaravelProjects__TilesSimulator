@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Simulador
+        psr4_prefix: Simulador
+        src_path: app

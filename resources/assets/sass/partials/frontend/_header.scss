@@ -1,0 +1,44 @@
+.szd-header {
+    height: 100px;
+    border-bottom: 1px dashed #000;
+}
+
+.szd-telephone h3 {
+    margin: 0;
+    color: $verde;
+}
+
+.szd-slogan h1 {
+    margin-top: 9px;
+    color: $verde;
+}
+
+.szd-logo {
+    padding-top: 4px;
+}
+
+.szd-lang {
+    margin-bottom: 10px;
+}
+
+.szd-lang a {
+    margin-right: 10px;
+}
+
+.szd-lang a img {
+    border: 1px solid #000;
+}
+
+.szd-return {
+    margin-right: 0;
+}
+
+.szd-return > a > span {
+    font-size: 11px;
+    color: #000;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: auto;
+}

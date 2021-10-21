@@ -1,0 +1,50 @@
+#plaques-carousel {
+    height: 430px;
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    width: 105%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+#plaques-carousel .item {
+    padding: 0;
+    margin: 0 0 15px 0;
+    cursor: pointer;
+}
+
+#plaques-carousel .item:last-child {
+    margin-bottom: 0;
+}
+
+.glyphicon-triangle-bottom:before {
+    content: "\e252";
+}
+
+.glyphicon-triangle-top:before {
+    content: "\e253";
+}
+
+.szd-carousel {
+    margin-top: -5px;
+}
+
+.szd-carousel a {
+    width: 100%;
+    color: #000;
+}
+
+.szd-carousel-nav {
+    cursor: pointer;
+}
+
+.szd-carousel ul li img {
+    border: 1px solid #000;
+}
+
+.szd-plaqueslist h4 {
+    margin-bottom: 0;
+}

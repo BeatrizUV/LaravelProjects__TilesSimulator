@@ -1,0 +1,78 @@
+@import "partials/_bootstrap.scss";
+
+$verde: #6C8B81;
+$gris-fondo: #CCCCCC;
+$gris-interior: #D6D6D6;
+$gris-texto: #999;
+$gris-forms: #EBEBEB;
+$border-standard: 7px;
+
+body {
+    background-color: $gris-fondo;
+}
+
+.center-block {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-pills a.current {
+    background-color: #000;
+    color: #FFF;
+}
+
+.szd-btn:hover, .szd-btn-active:hover, .szd-btn:active, .szd-btn-active:active {
+    color: #FFF;
+}
+
+.szd-btn {
+    background-color: $gris-interior;
+    color: #000;
+}
+
+.szd-btn-active {
+    background-color: $verde;
+    color: #FFF;
+}
+
+.szd-btn, .szd-btn-active, .szd-btn-delete {
+    font-size: 18px;
+}
+
+.szd-btn-edit {
+    margin-right: 35px;
+}
+
+.thumbnail {
+    display: inline-block !important;
+    width: 115px;
+    height: 115px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.thumbnail img {
+    width: 105px;
+    height: 105px;
+}
+
+.szd-display-none {
+    display: none;
+}
+
+.szd-table-shadow {
+    box-shadow: 0 0 5px #000;
+    background-color: #FFF;
+}
+
+.szd-table-shadow tbody tr:hover {
+    background-color: $gris-interior;
+}
+
+@import "partials/backend/_glyphicons-extra.scss";
+@import "partials/backend/_header.scss";
+@import "partials/backend/_content-header.scss";
+@import "partials/backend/_home.scss";
+@import "partials/backend/_manage.scss";
+@import "partials/backend/_help.scss";

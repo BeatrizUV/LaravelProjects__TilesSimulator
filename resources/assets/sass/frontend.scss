@@ -1,0 +1,117 @@
+@import "partials/_bootstrap.scss";
+
+$verde: #6C8B81;
+$gris-fondo: #EEEEEE;
+$gris-interior: #D6D6D6;
+$gris-texto: #999;
+$gris-forms: #EBEBEB;
+$border-standard: 7px;
+
+body {
+    background-color: $gris-fondo;
+    overflow: hidden;
+}
+
+.center-block {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-pills a.current {
+    background-color: #000;
+    color: #FFF;
+}
+
+.szd-btn:hover, .szd-btn-active:hover, .szd-btn:active, .szd-btn-active:active {
+    color: #FFF;
+}
+
+.szd-btn {
+    background-color: $gris-interior;
+    color: #000;
+}
+
+.szd-btn-active {
+    background-color: $verde;
+    color: #FFF;
+}
+
+.szd-btn, .szd-btn-active, .szd-btn-delete {
+    font-size: 18px;
+}
+
+.szd-btn-edit {
+    margin-right: 35px;
+}
+
+.thumbnail {
+    display: inline-block !important;
+    width: 115px;
+    height: 115px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.thumbnail img {
+    width: 105px;
+    height: 105px;
+}
+
+.szd-display-none {
+    display: none;
+}
+
+.szd-table-shadow {
+    box-shadow: 0 0 5px #000;
+    background-color: #FFF;
+}
+
+.szd-table-shadow tbody tr:hover {
+    background-color: $gris-interior;
+}
+
+h4 {
+    color: $verde;
+}
+
+.copyright {
+    width: 90%;
+    display: block;
+    margin: auto;
+    text-align: right;
+    font-size: 12px;
+    color: #999;
+    text-decoration: none;
+    margin-top: -15px;
+}
+
+.copyright a {
+    color: #666;
+}
+
+.copyright a:hover {
+    color: #000;
+}
+
+#cookies-alert {
+    position: absolute;
+    bottom: -52px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    height: 52px;
+    background-image: linear-gradient(to bottom,#dff0d8 0,#c8e5bc 100%);
+    background-repeat: repeat-x;
+    border-color: #b2dba1;
+}
+
+@import "partials/frontend/_content.scss";
+@import "partials/frontend/_header.scss";
+@import "partials/frontend/_carousel.scss";
+@import "partials/frontend/_colorizer.scss";
+@import "partials/frontend/_mosaic.scss";
+@import "partials/frontend/_colours.scss";
+@import "partials/frontend/_budget.scss";

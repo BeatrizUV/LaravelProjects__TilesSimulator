@@ -1,0 +1,28 @@
+.help-panel {
+    background-color: $gris-forms;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    min-height: 400px;
+    padding: 10px;
+}
+
+.help-panel h3 a {
+    cursor: default;
+    color: $verde;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.help-panel h3 a:hover {
+    color: $verde;
+}
+
+.help-panel p {
+    text-align: justify;
+}
+
+.help-panel p img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+}

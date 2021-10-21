@@ -1,0 +1,238 @@
+#data-list ul li a, #forms ul li a {
+    background-color: $gris-interior;
+    font-size: 18px;
+    padding: 3px 15px;
+    border-radius: 10px 10px 0 0;
+    border: 0;
+    color: #000;
+}
+
+#data-list ul .active a, #forms ul .active a {
+    background-color: $gris-forms;
+}
+
+#forms ul li.disabled a {
+    color: $gris-texto;
+} 
+
+.tab-content .panel {
+    box-shadow: none;
+    background-color: $gris-forms;
+    border: 0;
+    min-height: 425px;
+    border-radius: $border-standard;
+}
+
+.nav-tabs {
+    border: 0;
+}
+
+#forms .nav-tabs {
+    margin-right: -2px;
+}
+
+#add-form label, #edit-delete-form label {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#add-form input[type="text"], #add-form input[type="file"], #add-form input#upload-file, 
+#edit-delete-form input[type="text"], #edit-delete-form input[type="file"], #edit-delete-form input#upload-file,
+#add-form select, #edit-delete-form select, #add-form input[type="email"], #edit-delete-form input[type="email"] {
+    border: 1px solid $verde;
+    background-color: #FFF;
+    color: #000;
+    font-size: 18px;
+}
+
+.file-upload {
+    position: relative;
+    float: right;
+    margin-top: 5px !important;
+    clear: both;
+}
+
+.file-upload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.file-upload:hover {
+    color: #FFF;
+}
+
+#upload-file {
+    float: right;
+    color: $gris-texto;
+}
+
+.szd-form {
+    margin-top: 15px;
+    min-height: 340px !important;
+}
+
+.btn-cancel {
+    background-color: #000;
+    color: #FFF;
+}
+
+.inputs {
+    min-height: 310px;
+}
+
+.actions {
+    padding-top: 15px;
+    border-top: 1px solid $gris-fondo;
+    margin-bottom: 20px;
+}
+
+#colours-list, #pieces-list, #showrooms-list {
+    margin-left: 8px;
+}
+
+.thumbnail > img:hover {
+    opacity: 0.50 !important;
+    filter: alpha(opacity=50) !important; /* For IE8 and earlier */
+}
+
+.thumbnail:hover {
+    box-shadow: 0 0 10px #000 !important;
+    border: 1px solid #000 !important;
+}
+
+.thumbnail > span {
+    float: right;
+    color: #000;
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: -75px;
+    font-size: 35px;
+}
+
+#pieces-list .thumbnail > span {
+    margin-top: -70px;
+    font-size: 25px;
+}
+
+#plaques-list .thumbnail > span {
+    margin-top: -85px;
+    font-size: 25px;
+}
+
+#chosen-img {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid $gris-interior;
+}
+
+#upload-btn {
+    cursor: default;
+}
+
+#showrooms-list table tbody tr {
+    cursor: pointer;
+}
+
+.list .thumbnail {
+    width: 30px;
+    height: 30px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    padding: 0;
+}
+
+ .colours .thumbnail {
+    width: 20px;
+    height: 20px;
+    margin: 0 1.5px 0 0;
+    padding: 0;
+}
+
+.list .thumbnail img {
+    width: 30px;
+    height: 28px;
+    margin: 0;
+}
+
+.colours .thumbnail img {
+    width: 20px;
+    height: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.list .thumbnail span, .colours .thumbnail span {
+    display: none;
+}
+
+.nodes img {
+    width: 34px;
+    height: 34px;
+    border: 1px solid $verde;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+
+.thumb {
+    cursor: pointer;
+}
+
+.nodes input[type="text"] {
+    float: right;
+    width: 140px;
+    margin-top: -16px;
+}
+
+.nodes button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.nodes span button {
+    font-size: 8px;
+    padding-left: 2px;
+    padding-top: 0;
+}
+
+.nodes span button.btn-primary, .nodes span button.btn-warning {
+    clear: right;
+}
+
+.nodes > span {
+    display: block;
+    float: left;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.colours {
+    padding-top: 7px;
+    padding-bottom: 3px;
+    border-top: 1px solid $gris-texto;
+    border-bottom: 1px solid $gris-texto;
+    margin-bottom: 8px;
+}
+
+#tab-add-form, #tab-edit-delete-form {
+    border-top-right-radius: 0;
+}
+
+#list {
+    border-top-left-radius: 0;
+}
+
+.glyphicon-lock:before {
+    content: "\e033";
+}
